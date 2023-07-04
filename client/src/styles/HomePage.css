@@ -1,0 +1,79 @@
+.banner-img {
+    margin-top: 60px;
+    margin-bottom: 80px;
+  }
+
+  .cont_i{
+    display: flex; 
+    justify-content: space-around; 
+    flex-wrap: wrap; 
+    margin-bottom: 30px;
+  }
+  .cont_i p{
+    font-family:cursive;
+    color: black;
+    text-align: center;
+    font-size: 30px;
+    margin-top: 10px;
+
+  }
+  .cat-prod {
+    height: 450px;
+    width: 400px;
+  }
+  .cat-prod:hover{
+   transform: scale(0.9);
+  }
+  .home-page{
+    margin-bottom: 40px;
+  }
+
+  .home-page h1 {
+    color: rgb(243, 180, 34);
+    font-family: "Playfair Display", serif;
+    margin-left: 130px;
+  }
+  
+  
+  
+  .home-page .card img:hover {
+    transform: scale(1.05);
+  }
+
+  .home-page .card button:hover{
+    background-color: rgb(255, 183, 40);
+    color: black;
+  }
+
+  
+  .filters h4 {
+    margin-top: 100px;
+    color: gray !important;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.337);
+  }
+  
+  .ant-checkbox-wrapper:first-of-type {
+    margin-left: 8px;
+  }
+  
+  .ant-checkbox-wrapper {
+    margin: 2px;
+  }
+  .ant-radio-wrapper {
+    margin-bottom: 5px !important;
+    margin-left: 10px;
+  }
+  
+  .filters button {
+    background-color: black;
+    width: 100%;
+    border: none;
+    border-radius: 0;
+    margin-top: 20px;
+  }
+  
+  /* .loadmore {
+    color: green;
+    font-weight: bold;
+    font-size: 20px !important;
+  } */
