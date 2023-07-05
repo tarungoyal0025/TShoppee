@@ -22,7 +22,7 @@ const Header = () => {
   };
   return (
     <>
-      <nav className="navbar navbar-expand-lg bg-light navbarr">
+      <nav className="navbar navbar-expand-lg" style={{ backgroundColor: "transparent" }}>
         <div className="container-fluid">
           <button
             className="navbar-toggler"
@@ -36,7 +36,7 @@ const Header = () => {
             <span className="navbar-toggler-icon" />
           </button>
           <div className="collapse navbar-collapse navbarrr" id="navbarTogglerDemo01">
-            <Link to="/" className="navbar-brand">
+            <Link to="/" className="navbar-brand ticon">
               🛒 T Shoppee
             </Link>
 

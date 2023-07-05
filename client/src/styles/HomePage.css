@@ -1,6 +1,7 @@
 .banner-img {
-    margin-top: 60px;
+    margin-top: -200px;
     margin-bottom: 80px;
+    z-index: 2;
   }
 
   .cont_i{
