@@ -37,7 +37,7 @@ const Header = () => {
           </button>
           <div className="collapse navbar-collapse navbarrr" id="navbarTogglerDemo01">
             <Link to="/" className="navbar-brand ticon">
-              🛒 T Shoppee
+            <i class='bx bxs-cart fs-2' ></i> T Shoppee
             </Link>
 
             <ul className="navbar-nav ms-auto mb-2 mb-lg-0">

@@ -86,10 +86,10 @@ const CartPage = () => {
       <div className="container">
         <div className="row">
           <div className="col-md-12">
-            <h1 className="text-center bg-light p-2 mb-1">
+            <h1 className="text-center p-2 mb-1" style={{fontFamily:"cursive"}}>
               {`Hey ${auth?.token && auth?.user?.name}`}
             </h1>
-            <h4 className="text-center mt-2">
+            <h4 className="text-center mt-3">
               {cart?.length
                 ? `You Have ${cart.length} items in your cart ${
                     auth?.token ? "" : "please login to checkout"
